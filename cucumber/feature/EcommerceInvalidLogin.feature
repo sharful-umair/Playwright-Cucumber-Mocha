@@ -1,5 +1,5 @@
 Feature: Ecommerce Validation
-@Sanity
+@Sanity @Regression
   Scenario Outline: Placing the order with invalid credentials
     Given Login to Ecommerce application with "<username>" and "<password>"
     Then Verify the error message "Incorrect email or password." is displayed
