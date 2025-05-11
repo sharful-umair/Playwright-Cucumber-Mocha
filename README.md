@@ -11,3 +11,15 @@ It supports both BDD-style testing with Cucumber and traditional testing using M
 ├── playwright.config.js # Playwright configuration
 ├── package.json # NPM dependencies and scripts
 └── README.md # Project documentation
+
+## ✅ Features
+✅ Playwright support for Chromium, Firefox, WebKit
+✅ Cucumber for BDD scenarios
+✅ Mocha for flexible test structure
+✅ Allure Reporting integration
+✅ Page Object Model (POM) structure
+✅ Cross-browser testing
+
+👨‍💻 Author
+Sharful Umair
+GitHub | LinkedIn
