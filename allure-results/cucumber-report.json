@@ -1,0 +1,224 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ecommerce-validation;placing-the-order",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Placing the order",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 931552000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Login to Ecommerce application with \"sharfulumair42@gmail.com\" and \"#Test1234\"",
+            "match": {
+              "location": "cucumber\\stepdefinition\\steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3463862000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Add a product \"IPHONE 13 PRO\" to the cart",
+            "match": {
+              "location": "cucumber\\stepdefinition\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1791370998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Enter valid details and Place the order",
+            "match": {
+              "location": "cucumber\\stepdefinition\\steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 517014200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify the order is present in the order history",
+            "match": {
+              "location": "cucumber\\stepdefinition\\steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 457005899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 320315699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ecommerce-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ecommerce Validation",
+    "tags": [],
+    "uri": "cucumber\\feature\\EcommerceE2EFlow.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "ecommerce-validation;placing-the-order-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 9,
+        "name": "Placing the order with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 423928599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Login to Ecommerce application with \"sharfulumair@gmail.com\" and \"#Test1234\"",
+            "match": {
+              "location": "cucumber\\stepdefinition\\steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2859502497
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Verify the error message \"Incorrect email or password.\" is displayed",
+            "match": {
+              "location": "cucumber\\stepdefinition\\steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10875899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 267065099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "ecommerce-validation;placing-the-order-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 10,
+        "name": "Placing the order with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 429722900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Login to Ecommerce application with \"sharful@gmail.com\" and \"#Test1234\"",
+            "match": {
+              "location": "cucumber\\stepdefinition\\steps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3017398200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Verify the error message \"Incorrect email or password.\" is displayed",
+            "match": {
+              "location": "cucumber\\stepdefinition\\steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18330798
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 305520100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "ecommerce-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Ecommerce Validation",
+    "tags": [],
+    "uri": "cucumber\\feature\\EcommerceInvalidLogin.feature"
+  }
+]

@@ -1,0 +1,1 @@
+[{"name":"Login Failures","messageRegex":".*invalid credentials.*","matchedStatuses":["failed"]}]
