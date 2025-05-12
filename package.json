@@ -2,7 +2,12 @@
   "name": "playwrightframeworkcucumbermochaproject",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "all": "npx cucumber-js cucumber/feature",
+    "regression": "npx cucumber-js cucumber/feature --tags @Regression",
+    "smoke": "npx cucumber-js cucumber/feature --tags @Smoke",
+    "sanity" : "npx cucumber-js cucumber/feature --tags @Sanity"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
