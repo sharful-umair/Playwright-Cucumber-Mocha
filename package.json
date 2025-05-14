@@ -6,7 +6,8 @@
     "all": "npx cucumber-js cucumber/feature",
     "regression": "npx cucumber-js cucumber/feature --tags @Regression",
     "smoke": "npx cucumber-js cucumber/feature --tags @Smoke",
-    "sanity": "npx cucumber-js cucumber/feature --tags @Sanity"
+    "sanity": "npx cucumber-js cucumber/feature --tags @Sanity",
+    "test:mocha": "npx playwright test tests/mocha/"
   },
   "keywords": [],
   "author": "",
@@ -22,10 +23,10 @@
     "allure-cucumberjs": "^3.2.1",
     "allure-js-commons": "^3.2.1",
     "allure-playwright": "^3.2.1",
+    "mocha": "^11.2.2",
     "playwright": "^1.52.0"
   },
   "dependencies": {
-    "chai": "^5.2.0",
-    "mocha": "^11.2.2"
+    "chai": "^5.2.0"
   }
 }

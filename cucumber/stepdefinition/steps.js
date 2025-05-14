@@ -1,6 +1,6 @@
 const { When, Then, Given, setDefaultTimeout } = require("@cucumber/cucumber");
 setDefaultTimeout(60 * 1000);
-const { POManager } = require("../../pageobjects/POManager");
+const { POManager } = require("../../pageobjects/POManager.js");
 const { expect } = require("@playwright/test");
 const playwright = require("@playwright/test");
 
