@@ -13,8 +13,8 @@ const config = {
   use: {
     browserName: "chromium",
     headless: false,
-    screenshot: "on",
-    trace: "on", //retain-on-failure,on,off
+    screenshot: "off",
+    trace: "off", //retain-on-failure,on,off
   },
 };
 
