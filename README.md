@@ -29,57 +29,57 @@ A powerful and scalable test automation framework built with [Playwright](https:
 
 
 ## ✅ Features
-✅ Playwright support for Chromium, Firefox, WebKit
-✅ Cucumber for BDD scenarios
-✅ Mocha for flexible test structure
-✅ Allure Reporting integration
-✅ Page Object Model (POM) structure
-✅ Cross-browser testing
+✅ Playwright support for Chromium, Firefox, WebKit<br>
+✅ Cucumber for BDD scenarios<br>
+✅ Mocha for flexible test structure<br>
+✅ Allure Reporting integration<br>
+✅ Page Object Model (POM) structure<br>
+✅ Cross-browser testing<br>
 
 
 ## 🚀 Getting Started
 # Prerequisites
-Node.js (v14 or higher)
+- Node.js (v14 or higher)
 
-npm (v6 or higher)
+- npm (v6 or higher)
 
 ## Installation
 # Clone the Repository:
 
-git clone https://github.com/sharful-umair/Playwright-Cucumber-Mocha.git
-cd Playwright-Cucumber-Mocha
+- git clone https://github.com/sharful-umair/Playwright-Cucumber-Mocha.git
+- cd Playwright-Cucumber-Mocha
 
 ## Install Dependencies:
 
-npm install
+- npm install
 
 ## 🧪 Running Tests
 # Cucumber Tests (BDD)
 
-npm run test:cucumber
+- npm run test:cucumber
 
 # Mocha Tests
 
-npm run test:mocha
+- npm run test:mocha
 
 
 ## 📊 Generating Reports
 After executing tests, generate the Allure report:
 
-npm run allure:generate
+- npm run allure:generate
 
 To open the generated report in a browser:
 
-npm run allure:open
+- npm run allure:open
 
 
 ## 🛠️ Configuration
 
-Playwright Configuration: playwright.config.js
+- Playwright Configuration: playwright.config.js
 
-Cucumber Configuration: cucumber.js
+- Cucumber Configuration: cucumber.js
 
-Custom Configurations: playwright.configcustom.js, playwright.service.config.js
+- Custom Configurations: playwright.configcustom.js, playwright.service.config.js
 
 
 ## 📄 Writing Tests
@@ -92,7 +92,6 @@ Medium
 
 # Mocha
 Test Scripts: Located in tests/mocha/, utilizing Mocha's BDD interface.
-testomat.io
 
 
 ## 🔄 Continuous Integration
