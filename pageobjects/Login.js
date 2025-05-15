@@ -1,4 +1,7 @@
 const { expect } = require("@playwright/test"); 
+const config = require('../env.config.js');
+const env = process.env.TEST_ENV || 'dev';
+const baseURL = config[env].baseURL;
 
 class Login {
   constructor(page) {
@@ -12,7 +15,7 @@ class Login {
   }
 
   async goToLoginPage() {
-    await this.page.goto("https://rahulshettyacademy.com/client/");
+    await this.page.goto(`${baseURL}`);
     await this.page.evaluate(() => {
       document.body.style.zoom = "80%";
     });
