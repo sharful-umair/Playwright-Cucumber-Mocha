@@ -1,7 +1,14 @@
 
 # 🚀 Playwright-Cucumber-Mocha Automation Framework
 
-A powerful and scalable test automation framework built with [Playwright](https://playwright.dev/), [Cucumber.js](https://github.com/cucumber/cucumber-js), and [Mocha](https://mochajs.org/), designed for both BDD and traditional test approaches.
+A scalable end-to-end automation framework using:
+
+- 🎭 [Playwright](https://playwright.dev/) – Fast and reliable browser automation
+- 🥒 [Cucumber.js](https://github.com/cucumber/cucumber-js) – BDD-style test execution
+- ☕ [Mocha](https://mochajs.org/) – Flexible JavaScript test runner
+- 📊 [Allure](https://docs.qameta.io/allure/) – Rich reporting for test results
+
+Supports both **BDD** and **traditional** test styles with modular, page-object-based structure.
 
 ---
 
@@ -73,13 +80,17 @@ To open the generated report in a browser:
 - npm run allure:open
 
 
-## 🛠️ Configuration
+## 🛠️ Configuration Files
 
-- Playwright Configuration: playwright.config.js
+- playwright.config.js – Base config for Playwright
 
-- Cucumber Configuration: cucumber.js
+- playwright.configcustom.js – Environment-specific overrides
 
-- Custom Configurations: playwright.configcustom.js, playwright.service.config.js
+- playwright.service.config.js – Service-specific options
+
+- cucumber.js – Cucumber CLI config
+
+- azure-pipeline.yml – Azure CI/CD configuration
 
 
 ## 📄 Writing Tests
@@ -95,7 +106,8 @@ Test Scripts: Located in tests/mocha/, utilizing Mocha's BDD interface.
 
 
 ## 🔄 Continuous Integration
-The project includes an Azure DevOps pipeline configuration (azure-pipeline.yml) for automated testing and reporting.
+- The project includes an Azure DevOps pipeline configuration (azure-pipeline.yml) for automated testing and reporting.
+- You can adapt this to GitHub Actions, Jenkins, GitLab CI as needed.
 
 
 ## 🤝 Contributing
