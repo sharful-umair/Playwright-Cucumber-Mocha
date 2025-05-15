@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "all": "npx cucumber-js cucumber/feature",
-    "regression": "npx cucumber-js cucumber/feature --tags @Regression",
-    "smoke": "npx cucumber-js cucumber/feature --tags @Smoke",
-    "sanity": "npx cucumber-js cucumber/feature --tags @Sanity",
+    "test:cucumber:": "npx cucumber-js cucumber/feature",
+    "regression:cucumber": "npx cucumber-js cucumber/feature --tags @Regression",
+    "smoke:cucumber": "npx cucumber-js cucumber/feature --tags @Smoke",
+    "sanity:cucumber": "npx cucumber-js cucumber/feature --tags @Sanity",
     "test:mocha": "npx playwright test tests/mocha/"
   },
   "keywords": [],
