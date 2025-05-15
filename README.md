@@ -7,24 +7,24 @@ A powerful and scalable test automation framework built with [Playwright](https:
 
 ## 📁 Project Structure
 
-├── allure-report/            # Generated Allure reports
-├── allure-results/           # Allure results directory
-├── cucumber/                 # Cucumber-specific configurations
-├── data/                     # Test data files
-├── features/                 # Gherkin feature files
-├── pageobjects/              # Page Object Model classes
-├── step-definitions/         # Step definitions for Cucumber
-├── tests/
-│   └── mocha/                # Mocha test scripts
-├── utils/                    # Utility functions and helpers
-├── .gitignore                # Git ignore file
-├── azure-pipeline.yml        # Azure DevOps pipeline configuration
-├── cucumber.js               # Cucumber configuration file
-├── package.json              # Project metadata and dependencies
-├── playwright.config.js      # Playwright configuration
-├── playwright.configcustom.js# Custom Playwright configurations
-├── playwright.service.config.js # Service-specific Playwright config
-└── README.md                 # Project documentation
+├── allure-report/            # Generated Allure reports<br>
+├── allure-results/           # Allure results directory<br>
+├── cucumber/                 # Cucumber-specific configurations<br>
+├── data/                     # Test data files<br>
+├── features/                 # Gherkin feature files<br>
+├── pageobjects/              # Page Object Model classes<br>
+├── step-definitions/         # Step definitions for Cucumber<br>
+├── tests/<br>
+│   └── mocha/                # Mocha test scripts<br>
+├── utils/                    # Utility functions and helpers<br>
+├── .gitignore                # Git ignore file<br>
+├── azure-pipeline.yml        # Azure DevOps pipeline configuration<br>
+├── cucumber.js               # Cucumber configuration file<br>
+├── package.json              # Project metadata and dependencies<br>
+├── playwright.config.js      # Playwright configuration<br>
+├── playwright.configcustom.js# Custom Playwright configurations<br>
+├── playwright.service.config.js # Service-specific Playwright config<br>
+└── README.md                 # Project documentation<br>
 
 
 
@@ -80,6 +80,46 @@ Playwright Configuration: playwright.config.js
 Cucumber Configuration: cucumber.js
 
 Custom Configurations: playwright.configcustom.js, playwright.service.config.js
+
+
+## 📄 Writing Tests
+
+# Cucumber (BDD)
+Feature Files: Located in the features/ directory, written in Gherkin syntax.
+
+Step Definitions: Corresponding JavaScript implementations in step-definitions/.
+Medium
+
+# Mocha
+Test Scripts: Located in tests/mocha/, utilizing Mocha's BDD interface.
+testomat.io
+
+
+## 🔄 Continuous Integration
+The project includes an Azure DevOps pipeline configuration (azure-pipeline.yml) for automated testing and reporting.
+
+
+## 🤝 Contributing
+Contributions are welcome! Please fork the repository and submit a pull request. For major changes, open an issue first to discuss proposed modifications.
+
+
+## 📄 License
+This project is licensed under the MIT License.
+
+
+## 📈 Test Execution Flowchart
+Below is a flowchart illustrating the test execution process for both Cucumber and Mocha tests:
+
+
+# Flowchart TD
+    A[Start] --> B[Install Dependencies]
+    B --> C{Select Test Type}
+    C -->|Cucumber| D[Run Cucumber Tests]
+    C -->|Mocha| E[Run Mocha Tests]
+    D --> F[Generate Allure Report]
+    E --> F
+    F --> G[Open Allure Report]
+    G --> H[End]
 
 
 ## 👨‍💻 Author
