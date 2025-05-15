@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:cucumber:": "npx cucumber-js cucumber/feature",
+    "test:cucumber": "npx cucumber-js cucumber/feature",
     "regression:cucumber": "npx cucumber-js cucumber/feature --tags @Regression",
     "smoke:cucumber": "npx cucumber-js cucumber/feature --tags @Smoke",
     "sanity:cucumber": "npx cucumber-js cucumber/feature --tags @Sanity",
