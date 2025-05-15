@@ -11,6 +11,8 @@ A scalable end-to-end automation framework using:
 Supports both **BDD** and **traditional** test styles with modular, page-object-based structure.
 
 ---
+<br>
+<br>
 
 ## 📁 Project Structure
 
@@ -34,6 +36,8 @@ Supports both **BDD** and **traditional** test styles with modular, page-object-
 └── README.md                 # Project documentation<br>
 
 
+<br>
+<br>
 
 ## ✅ Features
 ✅ Playwright support for Chromium, Firefox, WebKit<br>
@@ -44,13 +48,21 @@ Supports both **BDD** and **traditional** test styles with modular, page-object-
 ✅ Cross-browser testing<br>
 
 
-## 🚀 Getting Started
-# Prerequisites
+<br>
+<br>
+
+## Getting Started
+
+Prerequisites
 - Node.js (v14 or higher)
 
 - npm (v6 or higher)
 
-## Installation
+<br>
+<br>
+
+# Installation
+
 # Clone the Repository:
 
 - git clone https://github.com/sharful-umair/Playwright-Cucumber-Mocha.git
@@ -60,15 +72,20 @@ Supports both **BDD** and **traditional** test styles with modular, page-object-
 
 - npm install
 
+<br>
+<br>
+
 ## 🧪 Running Tests
-# Cucumber Tests (BDD)
+Cucumber Tests (BDD)
 
 - npm run test:cucumber
 
-# Mocha Tests
+Mocha Tests
 
 - npm run test:mocha
 
+<br>
+<br>
 
 ## 📊 Generating Reports
 After executing tests, generate the Allure report:
@@ -79,6 +96,8 @@ To open the generated report in a browser:
 
 - npm run allure:open
 
+<br>
+<br>
 
 ## 🛠️ Configuration Files
 
@@ -92,6 +111,8 @@ To open the generated report in a browser:
 
 - azure-pipeline.yml – Azure CI/CD configuration
 
+<br>
+<br>
 
 ## 📄 Writing Tests
 
@@ -104,23 +125,33 @@ Medium
 # Mocha
 Test Scripts: Located in tests/mocha/, utilizing Mocha's BDD interface.
 
+<br>
+<br>
 
 ## 🔄 Continuous Integration
 - The project includes an Azure DevOps pipeline configuration (azure-pipeline.yml) for automated testing and reporting.
 - You can adapt this to GitHub Actions, Jenkins, GitLab CI as needed.
 
+<br>
+<br>
 
 ## 🤝 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request. For major changes, open an issue first to discuss proposed modifications.
 
+<br>
+<br>
 
 ## 📄 License
 This project is licensed under the MIT License.
 
+<br>
+<br>
 
 ## 📈 Test Execution Flowchart
 Below is a flowchart illustrating the test execution process for both Cucumber and Mocha tests:
 
+<br>
+<br>
 
 # Flowchart TD
     A[Start] --> B[Install Dependencies]
@@ -132,6 +163,8 @@ Below is a flowchart illustrating the test execution process for both Cucumber a
     F --> G[Open Allure Report]
     G --> H[End]
 
+<br>
+<br>
 
 ## 👨‍💻 Author
 Sharful Umair
